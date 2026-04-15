@@ -18,7 +18,7 @@ st.title("👩🏻‍🍳🥘🤌🏻Predictive Modeling and Profit Optimization
 
 @st.cache_data
 def load_data():
-    data=pd.read_csv("C:\\Users\\HP\\Downloads\\skycitypro2\\SkyCity Auckland Restaurants & Bars.csv")
+    data=pd.read_csv("SkyCity Auckland Restaurants & Bars.csv")
     return data
 
 df=load_data()
