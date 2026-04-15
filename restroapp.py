@@ -1,4 +1,4 @@
-from turtle import color, width
+
 
 from matplotlib import lines
 import matplotlib.pyplot as plt
