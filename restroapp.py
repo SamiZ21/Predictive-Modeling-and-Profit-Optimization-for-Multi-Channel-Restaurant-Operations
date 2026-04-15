@@ -1,6 +1,4 @@
 
-
-from matplotlib import lines
 import matplotlib.pyplot as plt
 from narwhals import Date
 from sklearn.metrics import r2_score, mean_absolute_error
