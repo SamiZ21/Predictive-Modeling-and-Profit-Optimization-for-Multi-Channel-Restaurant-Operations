@@ -1,5 +1,5 @@
 
-import matplotlib.pyplot as plt
+
 from narwhals import Date
 from sklearn.metrics import r2_score, mean_absolute_error
 from sklearn.linear_model import LinearRegression
@@ -221,17 +221,7 @@ with tab1:
         title="💲Average order value vs Profit", color_discrete_sequence=["#D0DE0F"]
     )
     st.plotly_chart(fig3, use_container_width=True, height=400)
-
-    
-    st.subheader("🔁Correlation Analysis")
-    plt.figure(figsize=(10, 6))
-    sns.heatmap(df.corr(numeric_only=True),cmap="coolwarm")
-    plt.title("Correlation Heatmap")
-    st.pyplot(plt) 
-
-    
-
-   
+ 
 
 with tab2:
     
