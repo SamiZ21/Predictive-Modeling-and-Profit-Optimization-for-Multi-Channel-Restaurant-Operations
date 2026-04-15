@@ -3,7 +3,6 @@ import altair as alt
 import pandas as pd 
 from numpy.random import default_rng as rng, random
 import numpy as np
-import seaborn as sns
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import r2_score, mean_absolute_error
 from sklearn.linear_model import LinearRegression
